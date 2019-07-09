@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.banner {
+    background-color: dodgerblue;
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+}
+.title {
+    display: inline-block;
+    margin: 1em .75em 1em .75em;
+}
+
+.home {
+    font-weight: 600;
+    margin-left: 1.5em;
+}
+
+.categories {
+    font-weight: 300;
+    margin-left: 1.5em;
+}
+
+.first-paragraph {
+    background-color: lightgray;
+    margin: 1.25em 1.25em .50em 1.25em;
+    padding: .25em 1em 1em;
+    color: #5E6264;
+}
+
+.small-text {
+    margin-bottom: .50em;
+    font-size: .7em;
+}
+
+.small-header {
+    color: dodgerblue;
+    font-weight: 300;
+}
+
+.paragraphs {
+    margin: 1.25em 1.25em .25em 1.25em;
+    /* padding: .25em .75em; */
+}
+
+.orange-bar {
+    background-color: orange;
+    margin: 0em;
+    padding: .05em .20em;
+    color: white;
+}
+
+.orange-words {
+    display: inline;
+    margin-right: 6%;
+    font-size: .90em;
+}
+
+.row {
+    display: flex;
+    margin-top: 3%;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    background-color: lightgray;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.software-names {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.article-count {
+    text-align: center;
+    font-size: .6em;
+    font-weight: 300;
+}
