@@ -1,0 +1,54 @@
+/* body {
+    margin-left: 5vh;
+    margin-right: 5vh;
+} */
+
+.navbar{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.grey-paragraph {
+    background-color: lightgray;
+
+}
+
+.container {
+    margin-top: 2vh;
+    margin-left: auto;
+    padding: 3vh;
+}
+
+.article-title {
+    color: #007bff;
+}
+
+.like-bar {
+    background-color: orange;
+    color: whitesmoke;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.like-bar span {
+    display: inline;
+    margin-right: 6vh;
+}
+
+.row {
+    margin-top: 5vh;
+
+}
+
+.col-sm {
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+
+.text-box {
+    text-align: center;
+}
+
+.text-box h4 {
+    padding-top: 10%;
+}
