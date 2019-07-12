@@ -1,0 +1,52 @@
+#main-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #banner {
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    align-items: center;
+  }
+  
+
+
+.photo {
+    object-fit: cover;
+
+    border: 2px solid pink;
+  }
+.text {
+    text-align: center;
+  }
+
+    
+  @media (min-width: 320px) and (max-width: 480px) {
+    #main-menu {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax(60px, 1fr));
+    }
+
+    #banner {
+        display: none;
+    }
+
+} 
